@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/shivam-cover.svg" width="100%" alt="Shivam — security researcher, developer, and DJ / music producer" />
+  <img src="shivam-cover.svg" width="100%" alt="Shivam — security researcher, developer, and DJ / music producer" />
 
   <br />
 
