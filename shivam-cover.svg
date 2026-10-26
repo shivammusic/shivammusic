@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="460" viewBox="0 0 1440 460" role="img" aria-labelledby="title desc">
+  <title id="title">Shivam Music — security, code and sound</title>
+  <desc id="desc">A neon teal and violet cyber-security banner with a terminal window and audio-wave visualizations.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#070c18"/>
+      <stop offset=".55" stop-color="#0b1426"/>
+      <stop offset="1" stop-color="#161029"/>
+    </linearGradient>
+    <radialGradient id="glow1"><stop stop-color="#08d9cf" stop-opacity=".17"/><stop offset="1" stop-color="#08d9cf" stop-opacity="0"/></radialGradient>
+    <radialGradient id="glow2"><stop stop-color="#a974f7" stop-opacity=".18"/><stop offset="1" stop-color="#a974f7" stop-opacity="0"/></radialGradient>
+    <linearGradient id="line"><stop stop-color="#33eed3"/><stop offset=".55" stop-color="#5facff"/><stop offset="1" stop-color="#b685ff"/></linearGradient>
+    <linearGradient id="shimmer"><stop stop-color="#74fff0"/><stop offset="1" stop-color="#b6a3ff"/></linearGradient>
+    <pattern id="grid" width="38" height="38" patternUnits="userSpaceOnUse"><path d="M 38 0 L 0 0 0 38" fill="none" stroke="#7c8da9" stroke-width=".8" opacity=".10"/></pattern>
+    <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <clipPath id="rounded"><rect width="1440" height="460" rx="24"/></clipPath>
+  </defs>
+  <g clip-path="url(#rounded)">
+    <rect width="1440" height="460" fill="url(#bg)"/>
+    <rect width="1440" height="460" fill="url(#grid)"/>
+    <ellipse cx="140" cy="90" rx="580" ry="400" fill="url(#glow1)"/>
+    <ellipse cx="1360" cy="380" rx="560" ry="420" fill="url(#glow2)"/>
+    <rect x="36" y="34" width="1368" height="392" rx="18" fill="none" stroke="#7087b5" opacity=".24"/>
+    <rect x="36" y="34" width="250" height="3" rx="2" fill="#32e6d2"/>
+    <rect x="1154" y="423" width="250" height="3" rx="2" fill="#aa87ff"/>
+    <path d="M 0 373 H 45 L 64 354 H 112 L 131 373 H 182" stroke="#22d6c5" opacity=".26" fill="none" stroke-width="2"/>
+    <path d="M 1250 80 H 1310 L 1334 103 H 1440" stroke="#ac89ff" opacity=".26" fill="none" stroke-width="2"/>
+    <circle cx="64" cy="354" r="4" fill="#22d6c5"/><circle cx="1334" cy="103" r="4" fill="#ac89ff"/>
+    <rect x="75" y="79" width="258" height="36" rx="18" fill="#133c49" opacity=".9" stroke="#36ceb9" stroke-opacity=".50"/>
+    <circle cx="96" cy="97" r="5" fill="#33eed3"/>
+    <text x="112" y="102" fill="#c6fff3" font-size="15" font-family="Segoe UI, Arial, sans-serif" font-weight="700" letter-spacing="2">SECURITY / CODE / SOUND</text>
+    <text x="70" y="237" fill="#f5f8ff" font-family="Arial Black, Segoe UI, sans-serif" font-weight="900" font-size="112" letter-spacing="-5">SHIVAM</text>
+    <rect x="77" y="263" width="70" height="5" rx="2" fill="#43eadb"/>
+    <rect x="155" y="263" width="170" height="5" rx="2" fill="#7767eb" opacity=".85"/>
+    <text x="77" y="317" fill="#bdb0ff" font-family="Segoe UI, Arial, sans-serif" font-weight="700" font-size="23" letter-spacing="3">SECURITY RESEARCHER  ·  DJ / PRODUCER</text>
+    <text x="78" y="359" fill="#9db0cb" font-family="Consolas, monospace" font-size="18">FIND FLAWS. BUILD FIXES. MAKE NOISE.</text>
+    <text x="78" y="403" fill="#5adacb" font-family="Consolas, monospace" font-size="17">github.com/shivammusic</text>
+    <g opacity=".28">
+      <path d="M 610 250 L 645 250 656 218 668 292 684 205 698 305 714 243 732 244 744 250 760 250" fill="none" stroke="url(#line)" stroke-width="3" stroke-linejoin="round"/>
+      <path d="M 605 240 L 650 240 663 265 677 194 692 292 706 231 725 240 756 240" fill="none" stroke="#b68bfa" stroke-width="1"/>
+    </g>
+    <g transform="translate(830,69)">
+      <rect width="525" height="319" rx="17" fill="#0b1221" stroke="#5875a6" stroke-width="1.4"/>
+      <rect x="1" y="1" width="523" height="52" rx="16" fill="#161d32"/>
+      <path d="M 1 52 H 524" stroke="#5875a6" stroke-opacity=".5"/>
+      <circle cx="27" cy="26" r="7" fill="#fb6b83"/>
+      <circle cx="51" cy="26" r="7" fill="#f3be61"/>
+      <circle cx="75" cy="26" r="7" fill="#44d6a0"/>
+      <text x="263" y="32" text-anchor="middle" fill="#94a4bd" font-family="Consolas, monospace" font-size="16">shivam@terminal:~</text>
+      <text x="25" y="95" fill="#41e8cc" font-family="Consolas, monospace" font-size="18">➜  ~ $ whoami</text>
+      <text x="25" y="125" fill="#dee8ff" font-family="Consolas, monospace" font-size="17">pentester / bug-bounty hunter</text>
+      <text x="25" y="163" fill="#41e8cc" font-family="Consolas, monospace" font-size="18">➜  ~ $ cat interests.txt</text>
+      <text x="25" y="193" fill="#cbd8ef" font-family="Consolas, monospace" font-size="17">web security · automation</text>
+      <text x="25" y="221" fill="#cbd8ef" font-family="Consolas, monospace" font-size="17">research · local-first AI</text>
+      <text x="25" y="259" fill="#b68bfa" font-family="Consolas, monospace" font-size="18">➜  ~ $ play after-hours.wav</text>
+      <g transform="translate(30 276)" fill="url(#line)">
+        <rect x="0" y="8" width="7" height="12" rx="3"/>
+        <rect x="14" y="1" width="7" height="26" rx="3"/>
+        <rect x="28" y="7" width="7" height="14" rx="3"/>
+        <rect x="42" y="0" width="7" height="28" rx="3"/>
+        <rect x="56" y="9" width="7" height="10" rx="3"/>
+        <rect x="70" y="4" width="7" height="20" rx="3"/>
+        <rect x="84" y="2" width="7" height="24" rx="3"/>
+        <rect x="98" y="8" width="7" height="12" rx="3"/>
+        <rect x="112" y="0" width="7" height="28" rx="3"/>
+        <rect x="126" y="5" width="7" height="18" rx="3"/>
+        <rect x="140" y="9" width="7" height="10" rx="3"/>
+        <rect x="154" y="3" width="7" height="22" rx="3"/>
+        <rect x="168" y="7" width="7" height="14" rx="3"/>
+        <rect x="182" y="0" width="7" height="28" rx="3"/>
+        <rect x="196" y="6" width="7" height="16" rx="3"/>
+      </g>
+    </g>
+  </g>
+</svg>
